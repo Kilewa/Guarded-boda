@@ -1,3 +1,10 @@
+@media only screen and (max-width: 600px) {
+    #images {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .whyus>h2 {
     text-align: center;
     color: white;
@@ -10,16 +17,16 @@
 }
 
 #img1 {
-    height: 400px;
+    height: 300px;
     width: 400px;
 }
 
 #img2 {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 450px;
 }
 
 #img3 {
-    height: 400px;
+    height: 300px;
     width: 400px;
 }
