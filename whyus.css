@@ -1,0 +1,25 @@
+.whyus>h2 {
+    text-align: center;
+    color: white;
+    background-color: #534949;
+}
+
+#images {
+    display: flex;
+    justify-content: space-between;
+}
+
+#img1 {
+    height: 400px;
+    width: 400px;
+}
+
+#img2 {
+    height: 400px;
+    width: 400px;
+}
+
+#img3 {
+    height: 400px;
+    width: 400px;
+}
