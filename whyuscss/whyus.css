@@ -1,6 +1,6 @@
 .whyus>h2 {
     text-align: center;
-    color:#fff;
+    color: #fff;
     background: #64485c;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -9,10 +9,11 @@
     word-spacing: 10px;
 }
 
-.column > p {
+.column>p {
     color: #ADADAD;
 }
-.column{
+
+.column {
     text-align: center;
     float: left;
     width: 33.3%;
@@ -20,10 +21,11 @@
     background: #501b1d;
 }
 
-.column img{
+.column img {
     border-radius: 5px;
 }
-.column:hover{
+
+.column:hover {
     opacity: 0.5;
     cursor: pointer;
     transition: 0.2s ease-in;
@@ -31,9 +33,7 @@
     padding: 1px;
 }
 
-/* Clear floats after image containers */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+#img3 {
+    height: 300px;
+    width: 400px;
+}
