@@ -191,7 +191,7 @@ nav{
     width: 50%;
     padding: 5px;
     background: #83677b;
-    height: 70vh;
+    height: 80vh;
 }
 .about-us img{
     border-radius: 5px;
@@ -242,7 +242,7 @@ input[type='text']{
     color: #501B1D;
 }
 input[type='textarea']{
-    padding: 40px 20px;
+    padding: 30px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     font-size: 16px;
@@ -322,7 +322,6 @@ input[type='textarea']{
     background: #64485c;
     color: #ADADAD;
     padding: 10px;
-    margin: 20px;
     width: 30%;
     outline: none;
     border: none;

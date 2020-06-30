@@ -1,6 +1,19 @@
+
+body{
+    background-image: url(./assets/images/sitebg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 /* Bordered form */
 form {
     border: 3px solid #f1f1f1;
+    width: 500px;
+    margin: auto;
+    color: #adadad;
+    
 }
 
 /* Full-width inputs */
@@ -12,6 +25,7 @@ input[type=password] {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 /* Set a style for all buttons */
@@ -22,7 +36,9 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 30%;
+    outline: none;
+    border-radius: 5px;
 }
 
 /* Add a hover effect for buttons */
@@ -58,6 +74,7 @@ img.avatar {
 span.psw {
     float: right;
     padding-top: 16px;
+    color: #f44336;
 }
 
 /* Change styles for span and cancel button on extra small screens */
