@@ -16,7 +16,6 @@ form {
     
 }
 
-/* Full-width inputs */
 input[type=text],
 input[type=password] {
     width: 100%;
@@ -28,7 +27,6 @@ input[type=password] {
     border-radius: 5px;
 }
 
-/* Set a style for all buttons */
 button {
     background-color: #501B1D;
     color: white;

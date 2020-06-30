@@ -318,6 +318,7 @@ input[type='textarea']{
     text-transform: capitalize;
     color: #ADADAD;
 }
+/* footer btn */
 .footer-btn > input[type="submit"]{
     background: #64485c;
     color: #ADADAD;
