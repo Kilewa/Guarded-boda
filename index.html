@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="whyuscss/whyus.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title> Guarded Boda</title>
 </head>
 
@@ -16,11 +19,18 @@
         </div>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
-            <li><a href="whyus.html">Why Us</a></li>
+            <li><a href="#whyus.html">Why Us</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="adroind"><i class="fab fa-android"></i></a></li>
-            <li><a href="#ipnone"><i class="fab fa-apple"></i></li>
-            </ul>
+            <li><a href="playstore"><i class="fab fa-android"></i></a></li>
+            <li><a href="#appstore"><i class="fab fa-apple"></i></li>  
+        </ul>
+        <div class="register">
+          <ul>
+              <li><a href="register.html">register</a></li>
+              <li><a href="login.html">login</a></li> 
+          </ul>
+        </div>
+            
         <div class="burger">
             <div class="line1"></div>
             <div class="line2"></div>
@@ -28,11 +38,92 @@
         </div>
     </nav>
     <div class="main">
-        <div class="landing-page">
-            <h3> Safiri na guarded boda</h3>
-            <h5>Guaranteed Safety</h5>
+        <div class="header-img">
+            <h3>Safiri na guarded boda</h3>
         </div>
+        <section class='whyus'>
+            <h2>Why us?</h2>
+            <div class="row">
+                <div class="column" data-aos="fade-right">
+                    <img src="./whyusimages/boda3.jpg"  width=400px height="300px" alt="">
+                    <p>We have insured our bodaboda riders and passengers.</p>
+                </div>
+                <div class="column" data-aos="zoom-out">
+                    <img src="./whyusimages/boda1.jpg"  width=400px height="300px" alt="">
+                    <p>We are efficient and always on time.</p>
+                </div>
+                <div class="column" data-aos="fade-left">
+                    <img src="./whyusimages/boda2.jpg"  width=400px height="300px" alt="">
+                    <p>We have hired and skilled our riders with customer care skills.</p>
+                </div>
+            </div>
+        </section> 
+        <section class="about">
+            <h2>About us</h2>
+            <div class="about-us" data-aos="fade-left">
+                <h3>What we do</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Culpa laborum in earum fugit doloremque ducimus!Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Culpa laborum in earum fugit doloremque ducimus!Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Culpa laborum in earum fugit doloremque ducimus!Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Culpa laborum in earum fugit doloremque ducimus!Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Culpa laborum in earum fugit doloremque ducimus!vLorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Culpa laborum in earum fugit doloremque ducimus!Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Culpa laborum in earum fugit doloremque ducimus!</p>
+            </div>
+            <div class="about-us"data-aos="fade-right" >
+                <img src="./whyusimages/boda3.jpg" width=500px height="400px" alt="customer">
+            </div>
+            
+        </section>
+        <section class="how it works"> </section>
+        <div class="footer" data-aos="fade-down">
+            <div class="footer-links footer-btn">
+                <h1>Send us email</h1>
+                <input type="text" id="name" placeholder="Enter your name" name="name"><br>
+                <input type="text" id="email" placeholder="Enter your email" name="email"><br>
+                <input type="textarea" id="textarea" placeholder="type your message" name="textarea"><br>
+                <input type="submit" value="Submit">
+              </div>
+            <div class="social_links footer-links">
+              <h1>Follow us on</h1>
+              <ul>
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-linkedin"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+              </ul>
+            </div>
+            <div class="footer-links quick-links">
+              <h1>Quick Links</h1>
+              <ul>
+                <li> <a href="#support">Support</a> </li>
+                <li> <a href="#faqs">FAQs</a> </li>
+                <li> <a href="#terms">Terms and conditions</a> </li>
+                <li> <a href="#news">news</a> </li>
+              </ul>
+            </div>
+           
+            <div class="copyright footer-links ">
+    
+              <p>Guarded Boda &copy;
+                <script>document.write(new Date().getFullYear());</script>. All Rights Reserved.</p>
+              <span class="caret scrollToTop"><i class="fas fa-angle-double-up"></i></span>
+            </div>
+          </div>
+        </div>
+
     </div>
-<script src="script.js"></script>
+<script src="script.js">
+
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 400,
+    duration: 1000
+  });
+</script>
+
 </body>
 </html>
