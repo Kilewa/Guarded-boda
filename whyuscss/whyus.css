@@ -82,3 +82,33 @@ nav {
     height: 300px;
     width: 400px;
 }
+
+.howitworks>h2 {
+    text-align: center;
+    padding: 20px;
+    background-color: #534949;
+    color: white;
+}
+
+.howitworks>h2:hover {
+    color: blue;
+}
+
+#bodaimage {
+    width: 700px;
+    height: 400px;
+}
+
+.howitworks>#howitworks {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+#howitworks>.easysteps {
+    font-size: 18px;
+    margin-right: 10px;
+    background-color: #53494949;
+    border: cadetblue;
+    border-width: 50px;
+}
