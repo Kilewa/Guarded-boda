@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="fontawesome/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="whyuscss/whyus.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title> Guarded Boda</title>
@@ -18,10 +17,10 @@
             <img src="assets/images/GURDED BODA.png" alt="logo">
         </div>
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#whyus.html">Why Us</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#whyus">Why Us</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="playstore"><i class="fab fa-android"></i></a></li>
+            <li><a href="#playstore"><i class="fab fa-android"></i></a></li>
             <li><a href="#appstore"><i class="fab fa-apple"></i></li>  
         </ul>
         <div class="register">
@@ -41,7 +40,7 @@
         <div class="header-img">
             <h3>Safiri na guarded boda</h3>
         </div>
-        <section class='whyus'>
+        <section id="whyus" class='whyus'>
             <h2>Why us?</h2>
             <div class="row">
                 <div class="column" data-aos="fade-right">
@@ -58,25 +57,46 @@
                 </div>
             </div>
         </section> 
-        <section class="about">
+        <section  class="about">
             <h2>About us</h2>
-            <div class="about-us" data-aos="fade-left">
+            <div  id="about" class="about-us" data-aos="fade-left">
                 <h3>What we do</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Culpa laborum in earum fugit doloremque ducimus!Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Culpa laborum in earum fugit doloremque ducimus!Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Culpa laborum in earum fugit doloremque ducimus!Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Culpa laborum in earum fugit doloremque ducimus!Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Culpa laborum in earum fugit doloremque ducimus!vLorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Culpa laborum in earum fugit doloremque ducimus!Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Culpa laborum in earum fugit doloremque ducimus!</p>
+                <p>We offer intensive training to all our riders to make them the 
+                  safest and most professional riders on the streets. We train them on
+                  road safety, first aid, bike maintenance 
+                  and customer care. We also make sure that they are always 
+                  Equipped with hairnets and a spare helmet
+                  Identifiable, alarms connected to our security response team and always
+                  trackable through our system.
+                  When riders join/register to Guarded Boda community they see significant 
+                  increase in their business providing impact to themselves,
+                  their families and the wider community. We came up with this idea to curb the pre-existing 
+                  cases of robbery,assault etc. We have witnessed signicant changes in 
+                  boda boda business which was our main goal. </p>
             </div>
-            <div class="about-us"data-aos="fade-right" >
+            <div  class="about-us"data-aos="fade-right" >
                 <img src="./whyusimages/boda3.jpg" width=500px height="400px" alt="customer">
             </div>
-            
         </section>
-        <section class="how it works"> </section>
+
+
+        <section class="about">
+          <h2>How it works</h2>
+        <div class="about-us"data-aos="fade-left" >
+            <img  src="./whyusimages/bodaimage.png" width=500px height="400px" alt="customer">
+        </div>
+      <div class="easysteps about-us" data-aos="fade-right">
+        <ul>
+          <li><i class="fas fa-check-square"></i> Visit the website on your phone.</li><br><br>
+          <li><i class="fas fa-check-square"></i> Register & login as a rider or Passeger.</li><br><br>
+          <li><i class="fas fa-check-square"></i> Top up your Safiri Account using your Mpesa or bank .</li><br><br>
+          <li><i class="fas fa-check-square"></i> State your destination and book for a ride.</li><br><br>
+          <li><i class="fas fa-check-square"></i> The App will estimate the transportation payment which you will<br> pay on the paybill number stated on website</li><br><br>
+          <li><i class="fas fa-check-square"></i> You will be picked immediately after rider confirmation.</li><br>
+          <li><i class="fas fa-check-square"></i> Enjoy the ride to your destination.</li>
+        </ul>
+    </div>
+  </section>
         <div class="footer" data-aos="fade-down">
             <div class="footer-links footer-btn">
                 <h1>Send us email</h1>
@@ -124,6 +144,33 @@
     duration: 1000
   });
 </script>
+<script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+  
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+  
+        // Store hash
+        var hash = this.hash;
+  
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+     
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+
 
 </body>
 </html>
