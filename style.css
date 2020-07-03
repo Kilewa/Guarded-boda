@@ -195,7 +195,7 @@ form select{
     border: 0;
     outline: none;
     position: relative;
-    color: #282880;
+    color: #2e0e0f;
 }
 
 #btn{
@@ -274,7 +274,7 @@ span{
 
 
 .header-img{
-    background: url("assets/images/bg.jpg");
+    background-image: url("assets/images/bg.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
